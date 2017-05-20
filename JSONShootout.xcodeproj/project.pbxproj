@@ -86,6 +86,9 @@
 		CCD5105B1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5105A1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift */; };
 		CCFD5B551D0A718C0021C2B3 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD510581CFFFB4C00E9C0D1 /* SwiftyJSON.framework */; };
 		CCFD5B571D0A71990021C2B3 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CCD510581CFFFB4C00E9C0D1 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF8DD6DC1ECFEDA0002B3D1A /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */; };
+		DF8DD6DD1ECFEDA0002B3D1A /* Himotoki.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DF8DD6E11ECFF587002B3D1A /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +117,7 @@
 			files = (
 				CC7A7FB81DC053E400A69A0B /* Decodable.framework in Embed Frameworks */,
 				2098D54B1DC1F5E800A15075 /* Genome.framework in Embed Frameworks */,
+				DF8DD6DD1ECFEDA0002B3D1A /* Himotoki.framework in Embed Frameworks */,
 				681299071DBFFCBC009960BE /* ObjectMapper.framework in Embed Frameworks */,
 				CC3023441CF9616600B51746 /* Marshal.framework in Embed Frameworks */,
 				CC3023461CF9616700B51746 /* Mapper.framework in Embed Frameworks */,
@@ -195,6 +199,7 @@
 		CC9786C51CEBACE8005A5DEA /* Unbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Unbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD510581CFFFB4C00E9C0D1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD5105A1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Tests.swift; sourceTree = "<group>"; };
+		DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Himotoki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +211,7 @@
 				20A0B96B1DC26810001D8A14 /* GenomeFoundation.framework in Frameworks */,
 				2098D54A1DC1F5E800A15075 /* Genome.framework in Frameworks */,
 				681299051DBFFCAB009960BE /* ObjectMapper.framework in Frameworks */,
+				DF8DD6DC1ECFEDA0002B3D1A /* Himotoki.framework in Frameworks */,
 				CCFD5B551D0A718C0021C2B3 /* SwiftyJSON.framework in Frameworks */,
 				716A8A9A1DC1D10A00BF314B /* Gloss.framework in Frameworks */,
 				CC7A7FB71DC053E400A69A0B /* Decodable.framework in Frameworks */,
@@ -232,6 +238,7 @@
 			files = (
 				2F2868961DE7F34B002A6F68 /* Freddy.framework in Frameworks */,
 				2098D54C1DC1F5FB00A15075 /* Genome.framework in Frameworks */,
+				DF8DD6E11ECFF587002B3D1A /* Himotoki.framework in Frameworks */,
 				716A8A9D1DC1D18B00BF314B /* JSON.framework in Frameworks */,
 				716A8A981DC1D0E900BF314B /* Gloss.framework in Frameworks */,
 				CCD510591CFFFB4C00E9C0D1 /* SwiftyJSON.framework in Frameworks */,
@@ -250,6 +257,7 @@
 		7C3FCD281DC1B16100C82DEE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */,
 				2F2868971DE7F48A002A6F68 /* Freddy.framework */,
 				2F2868951DE7F34B002A6F68 /* Freddy.framework */,
 				9E9BF9C91DCD117300548161 /* PMJSON.framework */,
