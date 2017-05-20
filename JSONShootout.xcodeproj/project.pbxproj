@@ -89,6 +89,9 @@
 		DF8DD6DC1ECFEDA0002B3D1A /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */; };
 		DF8DD6DD1ECFEDA0002B3D1A /* Himotoki.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DF8DD6E11ECFF587002B3D1A /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */; };
+		DF8DD6E31ECFF695002B3D1A /* Recording+Himotoki.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DD6E21ECFF695002B3D1A /* Recording+Himotoki.swift */; };
+		DF8DD6E51ED00848002B3D1A /* Program+Himotoki.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DD6E41ED00848002B3D1A /* Program+Himotoki.swift */; };
+		DF8DD6E71ED00BE9002B3D1A /* Himotoki_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8DD6E61ED00BE9002B3D1A /* Himotoki_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,6 +203,9 @@
 		CCD510581CFFFB4C00E9C0D1 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD5105A1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Tests.swift; sourceTree = "<group>"; };
 		DF8DD6DB1ECFEDA0002B3D1A /* Himotoki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Himotoki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8DD6E21ECFF695002B3D1A /* Recording+Himotoki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Recording+Himotoki.swift"; sourceTree = "<group>"; };
+		DF8DD6E41ED00848002B3D1A /* Program+Himotoki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Program+Himotoki.swift"; sourceTree = "<group>"; };
+		DF8DD6E61ED00BE9002B3D1A /* Himotoki_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Himotoki_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +332,7 @@
 				AA2B38D31DC0B6D3008CECCD /* JSON_Tests.swift */,
 				9E9BF9CB1DCD11BA00548161 /* PMJSON_Tests.swift */,
 				2F28689B1DE7F66F002A6F68 /* Freddy_Tests.swift */,
+				DF8DD6E61ED00BE9002B3D1A /* Himotoki_Tests.swift */,
 				CC5A1A4C1CEAE182007238F3 /* Large.json */,
 				CC5A1A181CEADE59007238F3 /* Info.plist */,
 			);
@@ -351,6 +358,7 @@
 				20A0B9561DC2584D001D8A14 /* Recording+Genome.swift */,
 				9E9BF9CF1DCD307200548161 /* Recording+PMJSON.swift */,
 				2F28689F1DE8843C002A6F68 /* Recording+Freddy.swift */,
+				DF8DD6E21ECFF695002B3D1A /* Recording+Himotoki.swift */,
 				71337C921DBEBFB400DCA374 /* Program+Marshal.swift */,
 				71337C941DBEBFC300DCA374 /* Program+Mapper.swift */,
 				71337C961DBEBFD000DCA374 /* Program+Unbox.swift */,
@@ -362,6 +370,7 @@
 				20A0B9581DC25B60001D8A14 /* Program+Genome.swift */,
 				9E9BF9CD1DCD126D00548161 /* Program+PMJSON.swift */,
 				2F28689D1DE7FB58002A6F68 /* Program+Freddy.swift */,
+				DF8DD6E41ED00848002B3D1A /* Program+Himotoki.swift */,
 			);
 			path = ModelObjects;
 			sourceTree = "<group>";
@@ -531,6 +540,7 @@
 				5B69A1DE1DBEC9A400B12579 /* Decodable_Tests.swift in Sources */,
 				CCD5105B1CFFFF7000E9C0D1 /* SwiftyJSON_Tests.swift in Sources */,
 				7C3FCD351DC1B61600C82DEE /* Gloss_Tests.swift in Sources */,
+				DF8DD6E71ED00BE9002B3D1A /* Himotoki_Tests.swift in Sources */,
 				9E9BF9CC1DCD11BA00548161 /* PMJSON_Tests.swift in Sources */,
 				681299181DC00DB1009960BE /* ObjectMapper_Test.swift in Sources */,
 			);
@@ -549,8 +559,10 @@
 				6812991B1DC00DBB009960BE /* Program+ObjectMapper.swift in Sources */,
 				9E9BF9D01DCD307200548161 /* Recording+PMJSON.swift in Sources */,
 				71337C991DBEBFDC00DCA374 /* Program+SwiftyJSON.swift in Sources */,
+				DF8DD6E31ECFF695002B3D1A /* Recording+Himotoki.swift in Sources */,
 				2F28689E1DE7FB58002A6F68 /* Program+Freddy.swift in Sources */,
 				71337C931DBEBFB400DCA374 /* Program+Marshal.swift in Sources */,
+				DF8DD6E51ED00848002B3D1A /* Program+Himotoki.swift in Sources */,
 				CC9786C01CEBAC6C005A5DEA /* NSDate+JSON.swift in Sources */,
 				9E9BF9CE1DCD126D00548161 /* Program+PMJSON.swift in Sources */,
 				5B69A1DA1DBEC84200B12579 /* Recording+Decodable.swift in Sources */,
